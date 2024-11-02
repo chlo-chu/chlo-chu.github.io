@@ -1,0 +1,96 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.website_path {
+    background-color: #d9d9d9; 
+    text-align: center;
+    font-weight: 300;
+    font-size: 3vh;
+    margin-top: 3%;
+}
+
+.website_path p{
+    margin-top: auto; 
+    margin-bottom: auto;
+    padding: 5px;
+}
+
+.page_padding {
+    padding-top: 90px;padding-left: 60px; padding-right: 2%; margin-bottom: 10%;
+}
+
+/*Header Section*/
+.header_container {
+    padding-bottom: 8%;
+}
+
+.header_container h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.header_container img {
+    width: auto;
+    float: right;
+    height: 445px;
+    padding-left: 5px;
+}
+
+.header_container p {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.header_container + div {
+    margin: 0; padding: 0;
+}
+
+/*CLOTHING SECTION*/
+
+.clothing_container h1{
+    margin-bottom: 1%;
+    font-weight: 400;
+    font-size: 50px;
+
+}
+
+.clothing_container h2{
+    font-weight: 250;
+    margin-bottom: 2%;
+}
+
+.clothing_container h3 {
+    display: inline;
+    margin-right: 7%;
+    font-weight: 100;
+
+}
+    /*Text For Clothing Images*/
+.clothing_container h4 {
+    padding-left: 15px;
+    font-weight: 300;
+    font-size: 30px;
+}
+    /*Text For Price*/
+.clothing_container h5 {
+    padding-left: 15px;
+    font-weight: 300;
+    font-size: 30px;
+    display: inline;
+}
+
+.clothing_container i {
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+
+} 
+
+.clothing_container img {
+    margin-top: 13%;
+    padding: 15px;
+}
