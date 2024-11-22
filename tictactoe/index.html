@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Tic Tac Toe</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body>
+
+<div class="game-container">
+	
+  <h1>Let's Play Tic Tac Toe!</h1>
+
+  <p id="info" > Click on a cell to place you mark. Player X starts first. The first to get three marks in a row, column or diagonal wins! </p>
+
+
+  <p id="turn">Player 1</p>
+
+  <div id="board">
+
+    <div id="box1" onclick="box1()" class="box"></div>
+    <div id="box2" onclick="box2()" class="box"></div>
+    <div id="box3" onclick="box3()" class="box"></div>
+    <div id="box4" onclick="box4()" class="box"></div>
+    <div id="box5" onclick="box5()" class="box"></div>
+    <div id="box6" onclick="box6()" class="box"></div>
+    <div id="box7" onclick="box7()" class="box"></div>
+    <div id="box8" onclick="box8()" class="box"></div>
+    <div id="box9" onclick="box9()" class="box"></div>
+  </div>
+
+
+  <button onclick="restart()">Restart</button>
+
+ </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
